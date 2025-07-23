@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   tl.to("#social-links", { opacity: 1, y: -20 }, "-=0.7");
 
-  const testText = "Hello, welcome to my website! This is just a test website, i'll be adding things here later. Major changes possibly, using this as a landing or parking page.";
+  const testText = "Welcome to my website. This is currently a personal test space and placeholder, with major updates planned soon. I'm using it as a landing page for now, but more content will be added over time. Meanwhile, feel free to check out my GitHub projects, my Instagram, and my YouTube channel.";
   const testEl = document.getElementById("test-text");
   testEl.style.opacity = 1;
 
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
       testEl.style.borderRight = 'none';
     }
   }
-  setTimeout(type, 1200);
+  setTimeout(type, 600);
 
   const bg = document.querySelector("#retro-bg img");
   window.addEventListener("mousemove", e => {

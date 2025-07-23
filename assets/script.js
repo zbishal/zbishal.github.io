@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     if (i < testText.length) {
       testEl.textContent += testText.charAt(i);
       i++;
-      setTimeout(type, 40);
+      setTimeout(type, 20);
     } else {
       testEl.style.borderRight = 'none';
     }

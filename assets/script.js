@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
       testEl.style.borderRight = 'none';
     }
   }
-  setTimeout(type, 600);
+  setTimeout(type, 120);
 
   const bg = document.querySelector("#retro-bg img");
   window.addEventListener("mousemove", e => {

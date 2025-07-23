@@ -18,12 +18,12 @@ window.addEventListener('DOMContentLoaded', () => {
     if (i < testText.length) {
       testEl.textContent += testText.charAt(i);
       i++;
-      setTimeout(type, 100);
+      setTimeout(type, 40);
     } else {
       testEl.style.borderRight = 'none';
     }
   }
-  setTimeout(type, 120);
+  setTimeout(type, 1200);
 
   const bg = document.querySelector("#retro-bg img");
   window.addEventListener("mousemove", e => {

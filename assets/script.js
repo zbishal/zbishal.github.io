@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   tl.to("#social-links", { opacity: 1, y: -20 }, "-=0.7");
 
-  const testText = "adddd a test here laterrrrr";
+  const testText = "Hello, welcome to my website! This is just a test website, i'll be adding things here later. ";
   const testEl = document.getElementById("test-text");
   testEl.style.opacity = 1;
 
